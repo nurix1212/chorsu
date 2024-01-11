@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+header {
+    background: #2B3844;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.06);
+}
+
+.chap-text {
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.right-text {
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    
+}
+
+main {
+    background: #202C36;
+   
+    height: 1024px;
+    flex-shrink: 0;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+
+    align-items: center;
+}
+
+
+p {
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px;
+}
+
+.content {
+    display: flex;
+
+    gap: 150px;
+    margin-top: 100px;
+    
+}
+
+.title {
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+
+.flag {
+    max-width: 560px;
+    width: 100%;
+}
+
+
+@media screen and (max-width:576px) {
+
+    .container {
+        max-width: 320px;
+        padding-top: -100px;
+    }
+
+    .content {
+
+        justify-content: center;
+
+        flex-direction: column;
+
+        gap: 30px;
+        padding-top: 50px;
+
+    }
+
+
+
+    .flag {
+        max-width: 320px;
+        margin: 0 auto;
+    }
+
+
+}
+
+.container button {
+    width: 136px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #2B3844;
+    box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.29);
+    border: none;
+    color: aliceblue;
+    margin-top: 50px;
+}
+
+.yozuv1 {
+    margin-left: 400px;
+    margin-top: -160px;
+}
+
+.yozuv2 button {
+    width: 96px;
+    height: 28px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    background: #2B3844;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.10);
+    
+    
+    
+    
+}
+
+body {
+    background: #202C36;
+}
+
+

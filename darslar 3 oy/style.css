@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background: #2B3844;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.06);
+}
+
+.chap-text {
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.right-text {
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+main {
+    background: #202C36;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+
+    align-items: center;
+}
+
+
+.search-input input {
+    border-radius: 5px;
+    background: #2B3844;
+    box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.05);
+
+    max-width: 440px;
+    width: 100% ;
+    height: 56px;
+
+    padding-left: 40px;
+
+    border: none;
+
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 142.857% */
+    margin-top: 40px;
+}
+
+
+.card1 {
+    border-radius: 5px;
+    background: #2B3844;
+    box-shadow: 0px 0px 7px 2px rgba(0, 0, 0, 0.03);
+    width: 267px;
+    height: 336px;
+
+    margin: 0 auto;
+
+}
+
+.card-title {
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 26px;
+    /* 144.444% */
+
+    margin-top: 30px;
+}
+
+.card-info p {
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 16px;
+
+    margin-top: 10px;
+}
+
+p span {
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+    /* 114.286% */
+}
+
+
+.card-info {
+    padding-left: 25px;
+}
+
+
+.flag-ota {
+    display: flex;
+    justify-content: space-between;
+
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+
+/* .box {
+    height: 200px;
+    background-color: red;
+
+    max-width: 800px;
+} */
+
+
+
+
+@media screen and (max-width:576px) {
+    
+}
+
+.card1 img {
+       width: 267px;
+    height: 160px;
+    flex-shrink: 0;
+
+}
+
+.card1 {
+    margin-top: 30px;
+}
+
